@@ -1,0 +1,1 @@
+C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\ConditionalParameter\ConditionalParameter.csproj;x86

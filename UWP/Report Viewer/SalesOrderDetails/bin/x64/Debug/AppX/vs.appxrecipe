@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANDRES-ZABALA</Machine>
+    <WindowsUser>ANDRES PC</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>84f2fca7-c222-4b04-bd18-5b77e68dd738</PackageIdentityName>
+    <PackageIdentityPublisher>CN=vijay.raja</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A06FAC50B861DB7F8C17854DB765795CE5467455FE9C6821225DA9F0C1243933</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>84f2fca7-c222-4b04-bd18-5b77e68dd738_1.0.0.0_x64__p7g4e1y52atqj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>84f2fca7-c222-4b04-bd18-5b77e68dd738_p7g4e1y52atqj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>84f2fca7-c222-4b04-bd18-5b77e68dd738</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=vijay.raja</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-01-22T19:24:53.531</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\SalesOrderDetails.exe">
+      <PackagePath>entrypoint\SalesOrderDetails.exe</PackagePath>
+      <Modified>2021-01-22T19:24:44.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANDRES PC\.nuget\packages\newtonsoft.json\10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-04-02T22:46:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.2\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2018-10-31T16:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Bold.Licensing.dll">
+      <PackagePath>Bold.Licensing.dll</PackagePath>
+      <Modified>2020-12-17T04:30:33.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\BoldReports.UWP.dll">
+      <PackagePath>BoldReports.UWP.dll</PackagePath>
+      <Modified>2020-12-17T04:48:13.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.DocIO.UWP.dll">
+      <PackagePath>Syncfusion.DocIO.UWP.dll</PackagePath>
+      <Modified>2020-09-29T23:39:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2020-09-28T09:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.OfficeChart.UWP.dll">
+      <PackagePath>Syncfusion.OfficeChart.UWP.dll</PackagePath>
+      <Modified>2020-09-24T01:39:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.Pdf.UWP.dll">
+      <PackagePath>Syncfusion.Pdf.UWP.dll</PackagePath>
+      <Modified>2020-09-29T23:44:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfCellGrid.UWP.dll">
+      <PackagePath>Syncfusion.SfCellGrid.UWP.dll</PackagePath>
+      <Modified>2020-09-24T02:06:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfChart.UWP.dll">
+      <PackagePath>Syncfusion.SfChart.UWP.dll</PackagePath>
+      <Modified>2020-09-29T23:47:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGauge.UWP.dll">
+      <PackagePath>Syncfusion.SfGauge.UWP.dll</PackagePath>
+      <Modified>2020-09-24T01:55:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGridCommon.UWP.dll">
+      <PackagePath>Syncfusion.SfGridCommon.UWP.dll</PackagePath>
+      <Modified>2020-09-24T02:05:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfInput.UWP.dll">
+      <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
+      <Modified>2020-09-24T01:56:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfMaps.UWP.dll">
+      <PackagePath>Syncfusion.SfMaps.UWP.dll</PackagePath>
+      <Modified>2020-09-27T23:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfShared.UWP.dll">
+      <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
+      <Modified>2020-09-24T01:49:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfTreeNavigator.UWP.dll">
+      <PackagePath>Syncfusion.SfTreeNavigator.UWP.dll</PackagePath>
+      <Modified>2020-09-24T02:02:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.XlsIO.UWP.dll">
+      <PackagePath>Syncfusion.XlsIO.UWP.dll</PackagePath>
+      <Modified>2020-09-29T23:49:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.Pdf.UWP\Properties\Syncfusion.Pdf.UWP.rd.xml">
+      <PackagePath>Syncfusion.Pdf.UWP\Properties\Syncfusion.Pdf.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-29T22:56:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfCellGrid.UWP\Syncfusion.SfCellGrid.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfCellGrid.UWP\Syncfusion.SfCellGrid.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T02:06:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfCellGrid.UWP\Properties\Syncfusion.SfCellGrid.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfCellGrid.UWP\Properties\Syncfusion.SfCellGrid.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:07:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfChart.UWP\Syncfusion.SfChart.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfChart.UWP\Syncfusion.SfChart.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-29T23:47:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfChart.UWP\Properties\Syncfusion.SfChart.UWP_2017.rd.xml">
+      <PackagePath>Syncfusion.SfChart.UWP\Properties\Syncfusion.SfChart.UWP_2017.rd.xml</PackagePath>
+      <Modified>2020-09-29T22:57:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T01:55:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:03:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGridCommon.UWP\Syncfusion.SfGridCommon.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfGridCommon.UWP\Syncfusion.SfGridCommon.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T02:05:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGridCommon.UWP\Properties\Syncfusion.SfGridCommon.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfGridCommon.UWP\Properties\Syncfusion.SfGridCommon.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:06:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T01:56:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:03:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfMaps.UWP\Syncfusion.SfMaps.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfMaps.UWP\Syncfusion.SfMaps.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-27T23:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfMaps.UWP\Properties\Syncfusion.SfMaps.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfMaps.UWP\Properties\Syncfusion.SfMaps.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-27T22:40:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\BoldReports.UWP\BoldReports.UWP.xr.xml">
+      <PackagePath>BoldReports.UWP\BoldReports.UWP.xr.xml</PackagePath>
+      <Modified>2020-12-17T04:48:14.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\BoldReports.UWP\Properties\BoldReports.UWP.rd.xml">
+      <PackagePath>BoldReports.UWP\Properties\BoldReports.UWP.rd.xml</PackagePath>
+      <Modified>2020-12-17T04:48:14.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T01:49:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfTreeNavigator.UWP\Syncfusion.SfTreeNavigator.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.UWP\Syncfusion.SfTreeNavigator.UWP.xr.xml</PackagePath>
+      <Modified>2020-09-24T02:02:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfTreeNavigator.UWP\Properties\Syncfusion.SfTreeNavigator.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.UWP\Properties\Syncfusion.SfTreeNavigator.UWP.rd.xml</PackagePath>
+      <Modified>2020-09-23T23:04:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-12-17T04:25:35.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-12-17T04:25:35.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-12-17T04:25:35.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\SalesOrderDetails.xr.xml">
+      <PackagePath>SalesOrderDetails.xr.xml</PackagePath>
+      <Modified>2021-01-22T19:24:43.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-01-22T19:24:43.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\ReportViewerPage.xbf">
+      <PackagePath>ReportViewerPage.xbf</PackagePath>
+      <Modified>2021-01-22T19:24:43.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-09-28T22:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-01-22T19:24:50.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\bin\x64\Debug\Core\SalesOrderDetails.exe">
+      <PackagePath>SalesOrderDetails.exe</PackagePath>
+      <Modified>2021-01-22T19:24:53.465</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ANDRES PC\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ANDRES PC\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

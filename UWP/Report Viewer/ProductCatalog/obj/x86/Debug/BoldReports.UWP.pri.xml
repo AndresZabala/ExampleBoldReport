@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="BoldReports.UWP" version="1.0" primary="true">
+		<Qualifiers>
+			<DeviceFamily>MOBILE</DeviceFamily>
+			<Language>EN-US</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="BoldReports.UWP">
+			<ResourceMapSubtree name="BoldReports.UWP.Resources">
+				<NamedResource name="All" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/All">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>All</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BackButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/BackButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Back</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BackButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/BackButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Go to the parent report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Bottom" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Bottom">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Bottom</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CancelButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/CancelButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cancel</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ComponentName" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ComponentName">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>ReportViewer</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CredentialFailed" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/CredentialFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Enter valid user name and password.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CredentialSuccess" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/CredentialSuccess">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Provided username and password is valid.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CSVExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/CSVExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>CSV</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DocumentMapButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/DocumentMapButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Document Map</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DocumentMapButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/DocumentMapButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Show or hide the document map</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorCodeText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ErrorCodeText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Error Code :</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorDetailsText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ErrorDetailsText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Error Details</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExcelExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ExcelExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Excel</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Export</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExportButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ExportButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Select the exported file format.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExportCompleted" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ExportCompleted">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Report has been exported successfully.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExportFailed" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ExportFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Report failed to export.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FalseValueText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/FalseValueText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>False</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FirstPageButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/FirstPageButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>First</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FirstPageButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/FirstPageButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Go to first page of the report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HideDetails" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/HideDetails">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Hide Details</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HtmlExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/HtmlExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>HTML</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InputCredentials" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/InputCredentials">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Enter the data source credentials to access report.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidMargin" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/InvalidMargin">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>The margins overlap or they are off the paper.
+Enter a different margin size.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidPageInRange" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/InvalidPageInRange">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Invalid page(s) in range</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidPageNumber" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/InvalidPageNumber">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Page number out of bounds</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidPageRange" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/InvalidPageRange">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Invalid page range (eg: 1-3, 5)</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LastPageButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/LastPageButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Last</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LastPageButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/LastPageButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Go to last page of the report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Left" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Left">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Left</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Margins" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Margins">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Margins</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NextPageButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/NextPageButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Next</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NextPageButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/NextPageButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Go to next page of the report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NullCheckBoxText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/NullCheckBoxText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>NULL</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NullValueText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/NullValueText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>null</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OkButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/OkButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>OK</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Orientation" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Orientation">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Orientation</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageRangeText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PageRangeText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Page Range</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageSetupButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PageSetupButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Page Setup</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ParameterAreaButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ParameterAreaButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Parameters</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ParameterAreaButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ParameterAreaButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Show or hide the parameter pane.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ParameterAreaTitleText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ParameterAreaTitleText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Report Parameters</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PDFExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PDFExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>PDF</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PreviousPageButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PreviousPageButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Previous</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PreviousPageButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PreviousPageButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Go to previous page of the report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PrintButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PrintButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Print</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PrintButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PrintButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Print</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PrintFailed" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PrintFailed">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Failed to print.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PrintLayoutButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/PrintLayoutButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Print Layout</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RangeText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/RangeText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Range</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RefreshButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/RefreshButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refresh</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RefreshButtonToolTip" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/RefreshButtonToolTip">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refresh the report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Right" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Right">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Right</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SelectAll" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/SelectAll">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Select All</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SelectAValue" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/SelectAValue">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Select A Value</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ShowDetails" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ShowDetails">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Show Details</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Top" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/Top">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Top</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TrueValueText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/TrueValueText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>True</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ViewReportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/ViewReportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>View Report</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WordExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/WordExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Word</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="XMLExportButtonText" uri="ms-resource://BoldReports.UWP/BoldReports.UWP/BoldReports.UWP.Resources/XMLExportButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>XML</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="BoldReports.UWP">
+				<NamedResource name="BoldReports.UWP.xr.xml" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/BoldReports.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>BoldReports.UWP\BoldReports.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="BoldReports.UWP.rd.xml" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/Properties/BoldReports.UWP.rd.xml">
+						<Candidate type="Path">
+							<Value>BoldReports.UWP\Properties\BoldReports.UWP.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Reports">
+					<ResourceMapSubtree name="Controls">
+						<ResourceMapSubtree name="ReportingErrorControl">
+							<NamedResource name="ReportingErrorControl.xbf" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/Reports/Controls/ReportingErrorControl/ReportingErrorControl.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ReportViewerStyle.xbf" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/Themes/ReportViewerStyle.xbf">
+						<Candidate qualifiers="DeviceFamily-MOBILE" type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Styles.xbf" uri="ms-resource://BoldReports.UWP/Files/BoldReports.UWP/Themes/Styles.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

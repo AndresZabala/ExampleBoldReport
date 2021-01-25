@@ -1,0 +1,153 @@
+﻿@inject SampleData ds;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" property="og:description" content="@ViewBag.Description" />
+    <meta property="og:image" content="https://www.boldreports.com/wp-content/uploads/2019/09/boldreports-ogp.png" alt="Reports sample for ASP.NET Core" />
+    <meta property="og:image:secure_url" content="https://www.boldreports.com/wp-content/uploads/2019/09/boldreports-ogp.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="@ViewBag.Title" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <script>
+        function validateBrowser() {
+            var uaValidate = navigator.userAgent.match(/(MSIE |Trident.*rv[ :])([0-9]+)/);
+            if (uaValidate != null)
+                return uaValidate[2];
+            return null;
+        }
+        var ieVer = validateBrowser();
+        if (ieVer != null && ieVer < 11) {
+            if (!location.origin) {
+                location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+                location.href = location.origin + '/error.html';
+            }
+        }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K73VBT8');</script>
+    <!-- End Google Tag Manager -->
+    <link href="~/bundles/main/app.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div hidden id="reports-analytics" data-queue="Bold Reports - Demos - ASP.NET Core"></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K73VBT8"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    @RenderBody()
+    <div class="splash">
+        <div class="message">ASP.NET Core Reports</div>
+        <div class="loader">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <script src="~/bundles/ej2.min.js"></script>
+
+    <script src="~/bundles/main/vendor.min.js"></script>
+    <div class="ej-body e-hidden">
+        <ej-header>
+            <partial name="_header" />
+        </ej-header>
+        <div class="mobile-overlay" onclick="onMobileOverlayClick()"></div>
+        <div class="ej-main-parent-content">
+            <ej-sidebar>
+                <partial name="_sidebar" />
+            </ej-sidebar>
+            <div class="ej-main-child-content">
+                <ej-main-content>
+                    <div class="ej-main-body-content">
+                        <h1 class="ej-title"></h1>
+                        <p class="ej-meta-description"></p>
+                        <div id="parentTabContainer">
+                            <ul class="nav ej-nav-header" id="parentTab" role="tablist">
+                                <li class="ej-nav-item">
+                                    <a href="#demo" data-toggle="tab" role="tab" aria-selected="true">
+                                        <Span class="ej-sb-icons ej-demo-icon"></Span><Span>DEMO</Span>
+                                    </a>
+                                </li>
+                                <li class="ej-nav-item source-tab">
+                                    <a href="#source" data-toggle="tab" role="tab" aria-selected="false">
+                                        <Span class="ej-sb-icons ej-source-icon"></Span><Span>SOURCE</Span>
+                                    </a>
+                                </li>
+                                <li class="ej-nav-item desc-tab">
+                                    <a href="#ej-description" data-toggle="tab" role="tab" aria-selected="false">
+                                        <Span class="ej-sb-icons ej-description-icon"></Span><Span>Description</Span>
+                                    </a>
+                                </li>
+                                <li class="ej-nav ej-nav-item ej-sb-icons">
+                                    <div class="new-tab ej-nav-sub-item">
+                                        <div class="ej-nav-new" title="Open in New Window" onclick="onTabBtnClick()" tabindex="0"></div>
+                                    </div>
+                                    <div class="ej-nav-prev ej-nav-sub-item" title="Previous Sample" onclick="onTabPrev()" tabindex="0"></div>
+                                    <div class="ej-nav-next ej-nav-sub-item" title="Next Sample" onclick="onTabNext()" tabindex="0"></div>
+                                </li>
+                            </ul>
+                            <div class="tab-content ej-tab-content" id="parentTabContent">
+                                <div class="tab-pane ej-tab-pane" id="demo" role="tabpanel">
+                                    <ej-sample>@RenderSection("control", true)</ej-sample>
+                                </div>
+                                <div class="tab-pane" id="source" role="tabpanel">
+                                    <div id="childTabContainer">
+                                        <div class="tab-content ej-tab-content" id="childTabContent">
+                                            <div class="tab-pane ej-tab-pane csharp-content  show active" id="csharp" role="tabpanel"></div>
+                                            <div class="tab-pane ej-tab-pane cshtml-content" id="cshtml" role="tabpanel"></div>
+                                        </div>
+                                        <ul class="nav ej-nav-header" id="childtTab" role="tablist">
+                                            <li class="ej-nav-item">
+                                                <a href="#csharp" class="active csharp-header" data-toggle="tab" role="tab" aria-selected="true"></a>
+                                            </li>
+                                            <li class="ej-nav-item">
+                                                <a class="cshtml-header" href="#cshtml" data-toggle="tab" role="tab" aria-selected="false"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tab-pane ej-tab-pane" id="ej-description" role="tabpanel">
+                                    @RenderSection("description", true)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ej-main-content>
+            </div>
+        </div>
+    </div>
+    <script>
+        let reportSampleData;
+        let reportSamples;
+        let reportBasePath;
+        let reportRouterPath;
+
+        function getReportSampleData() {
+            return @Html.Raw(ds.getSampleData());
+        }
+
+        function getBasePath() {
+            return "@Url.Content("~/")";
+        }
+    </script>
+    <script src="~/bundles/main/app.min.js"></script>
+    <bold-script-manager></bold-script-manager>
+</body>
+
+</html>

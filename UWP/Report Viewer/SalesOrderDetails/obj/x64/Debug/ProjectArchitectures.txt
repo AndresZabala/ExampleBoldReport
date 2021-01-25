@@ -1,0 +1,1 @@
+C:\Users\Public\Documents\Bold Reports\Embedded Reporting\Samples\UWP\Report Viewer\SalesOrderDetails\SalesOrderDetails.csproj;x64

@@ -1,0 +1,35 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate x:Key="ToolTipTemplate">
+        <Border>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Polygon Grid.Column="0" Fill="{Binding BackgroundColor}" Points="{Binding PolygonPoints}" Stroke="{Binding StrokeColor}" StrokeThickness="{Binding StrokeWidth}"/>
+
+                <Grid Grid.Column="0"  HorizontalAlignment="Center">
+                    <TextBlock Text="{Binding Value}" FontSize="{Binding FontSize}" Foreground="{Binding TextColor}" FontFamily="{Binding ForntFamily}" FontStyle="{Binding FontStyle}" Padding="0" Margin="{Binding Margin}"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate x:Key="ToolTipDataTemplate">
+        <Border>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Polygon Grid.Column="0" Fill="{Binding BackgroundColor}" Points="{Binding PolygonPoints}" Stroke="{Binding StrokeColor}" StrokeThickness="{Binding StrokeWidth}"/>
+
+                <Grid Grid.Column="0"  HorizontalAlignment="Center">
+                    <ContentControl ContentTemplate="{Binding TooltipTemplate}" Margin="{Binding Margin}"/>
+                </Grid>
+            </Grid>
+
+        </Border>
+    </DataTemplate>
+</ResourceDictionary>

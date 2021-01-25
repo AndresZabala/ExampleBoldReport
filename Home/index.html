@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NB7XZPC');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>Demos & Tutorial Samples of Bold Reports JavaScript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Learn Bold Reports JavaScript Designer and Viewer in various usecase scenario demos, example applications and tutorial samples.">
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        function validateBrowser() {
+            var uaValidate = navigator.userAgent.match(/(MSIE |Trident.*rv[ :])([0-9]+)/);
+            if (uaValidate != null)
+                return uaValidate[2];
+            return null;
+        }
+        var ieVer = validateBrowser();
+        if (ieVer != null && ieVer < 11) {
+            if (!location.origin) {
+                location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+                location.href = location.origin + '/error.html';
+            }
+        }
+    </script>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div hidden id="reports-analytics" data-queue="Bold Reports - Demos - Home"></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NB7XZPC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!--Header section-->
+    <div class="ej-lp-header">
+        <div class="container">
+            <div class="ej-lp-left-side">
+                <a href="https://www.boldreports.com" target="_blank">
+                    <div class="ej-lp-logo"></div>
+                </a>
+            </div>
+            <div class="ej-lp-right-side">
+                <ul class="nav ej-nav-header" role="tablist">
+                    <li class="ej-nav-item">
+   <a href="/" class="active" role="tab" aria-selected="true">
+       JavaScript
+   </a>
+</li>
+<li class="ej-nav-item">
+   <a href="angular.html" class="" role="tab" aria-selected="false">
+       Angular
+   </a>
+</li>
+<li class="ej-nav-item">
+   <a href="aspnet-core.html" class="" role="tab" aria-selected="false">
+       ASP.NET Core
+   </a>
+</li>
+<li class="ej-nav-item">
+   <a href="aspnet-mvc.html" class="" role="tab" aria-selected="false">
+       ASP.NET MVC
+   </a>
+</li>
+<li class="ej-nav-item">
+   <a href="aspnet-web-forms.html" class="" role="tab" aria-selected="false">
+       ASP.NET WebForms
+   </a>
+</li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        JavaScript
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item active" href="/">JavaScript</a>
+<a class="dropdown-item " href="angular.html">Angular</a>
+<a class="dropdown-item " href="aspnet-core.html">ASP.NET Core</a>
+<a class="dropdown-item " href="aspnet-mvc.html">ASP.NET MVC</a>
+<a class="dropdown-item " href="aspnet-web-forms.html">ASP.NET WebForms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main Content section-->
+    <div class="ej-main-content">
+        <!--Tab Content section-->
+        <div class="ej-tab-content">
+            <div class="container">
+                <h1 class="ej-content-header-text">Bold Reports for JavaScript demos</h1>
+                <div class="ej-content-description">Empower your web application with feature-rich report preview, edit and customization capabilities that lets you explore data easily and make real-time decisions. Eﬀortlessly print and export reports.</div>
+            </div>
+            <div class="ej-sample-card-container">
+                <div class="ej-sample-cards ej-preview-sample"><div class="ej-preview-sample-card">
+    <div class="ej-preview-header-wrapper">
+    <div class="ej-preview-sample-image e-preview-designer-icon"></div>
+    <div class="ej-preview-sample-name">Report Designer</div>
+    </div>
+    <div class="ej-preview-sample-desc">Easily integrate intuitive runtime report editing and customized functionalities into your web and desktop applications</div>
+    <a class="e-preview-btn" href="/demos/javascript/report-designer" target="_blank">Try Report Designer</a>
+</div>
+<div class="ej-preview-sample-card">
+    <div class="ej-preview-header-wrapper">
+    <div class="ej-preview-sample-image e-preview-viewer-icon"></div>
+    <div class="ej-preview-sample-name">Report Viewer</div>
+    </div>
+    <div class="ej-preview-sample-desc">Empower your application with feature-rich report previewing capability that lets explore data easily and make real-time decisions</div>
+    <a class="e-preview-btn" href="/demos/javascript/#/" target="_blank">Try Report Viewer</a>
+</div></div>
+                <div class="ej-sample-card-header">Report Viewer Samples</div>
+                <div class="ej-sample-cards ej-landscape" ><div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/company-sales" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-208px"></div>
+    </a>
+    <div class="ej-sample-name">Company Sales</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/territory-sales" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-1040px"></div>
+    </a>
+    <div class="ej-sample-name">Territory Sales</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/barcode" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:0px"></div>
+    </a>
+    <div class="ej-sample-name">Barcode</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/patient-experience-analysis" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-624px"></div>
+    </a>
+    <div class="ej-sample-name">Patient Experience Analysis</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/sales-order-detail" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-832px"></div>
+    </a>
+    <div class="ej-sample-name">Sales Order Detail</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/invoice" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-416px"></div>
+    </a>
+    <div class="ej-sample-name">Invoice</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/product-catalog" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-1248px"></div>
+    </a>
+    <div class="ej-sample-name">Product Catalog</div>
+</div></div>
+<div class="ej-sample-cards ej-portrait" ><div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/product-line-sales" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-2240px"></div>
+    </a>
+    <div class="ej-sample-name">Product Line Sales</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/mail-merge" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-960px"></div>
+    </a>
+    <div class="ej-sample-name">Mail Merge</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/sales-report" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-2880px"></div>
+    </a>
+    <div class="ej-sample-name">Sales Report</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/conditional-row-formatting" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:0px"></div>
+    </a>
+    <div class="ej-sample-name">Conditional Row Formatting</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/customer-support-analysis" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-320px"></div>
+    </a>
+    <div class="ej-sample-name">Customer Support Analysis</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/tickets-sales-analysis" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-3200px"></div>
+    </a>
+    <div class="ej-sample-name">Tickets Sales Analysis</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/website-visitor-analysis" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-3520px"></div>
+    </a>
+    <div class="ej-sample-name">Website Visitor Analysis</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/personal-expense-analysis" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-1600px"></div>
+    </a>
+    <div class="ej-sample-name">Personal Expense Analysis</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/northwind-products-suppliers-report" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-1280px"></div>
+    </a>
+    <div class="ej-sample-name">Northwind Products and Suppliers Report</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/sales-by-year" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-2560px"></div>
+    </a>
+    <div class="ej-sample-name">Sales By Year</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/grouping-aggregate" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-640px"></div>
+    </a>
+    <div class="ej-sample-name">Grouping Aggregate</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/product-details" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-1920px"></div>
+    </a>
+    <div class="ej-sample-name">Product Details</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/load-large-data" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-2880px"></div>
+    </a>
+    <div class="ej-sample-name">Load Large Data</div>
+</div>
+<div class="ej-samples-card">
+    <a href="/demos/javascript/#/report-viewer/consolidated-balance-sheet" target="_blank">
+    <div class="ej-sample-image" style="background-position-y:-3840px"></div>
+    </a>
+    <div class="ej-sample-name">Consolidated Balance Sheet</div>
+</div></div>
+            </div>
+        </div>
+        <!--Footer section-->
+        <div class="ej-lp-footer">
+            <div class="ej-lp-footer-links">
+                <a href="https://help.boldreports.com/javascript/" target="_blank">
+                    Documentation
+                </a>
+                <a href="mailto:support@boldreports.com" target="_blank">
+                    Support
+                </a>
+                <a href="https://www.boldreports.com/blog" target="_blank">
+                    Blog
+                </a>
+                <a href="https://www.boldreports.com/feedback" target="_blank">
+                    Feedback
+                </a>
+            </div>
+            <div class="ej-lp-footer-copyright">Copyright © 2001-2020 Syncfusion Inc.</div>
+        </div>
+    </div>
+</body>
+
+</html>

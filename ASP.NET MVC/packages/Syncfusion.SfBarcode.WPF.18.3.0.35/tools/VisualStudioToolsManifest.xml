@@ -1,0 +1,9 @@
+<FileList>
+
+<File Reference="Syncfusion.SfBarcode.WPF.dll">
+	<ContainsControls>True</ContainsControls>
+	<ToolboxItems UIFramework="WPF" VSCategory="Syncfusion Controls for WPF" BlendCategory="Syncfusion Controls for WPF">
+		<Item Type="Syncfusion.UI.Xaml.Controls.Barcode.SfBarcode"/>
+	</ToolboxItems>
+</File>
+</FileList>
